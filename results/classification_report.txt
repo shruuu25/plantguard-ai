@@ -1,0 +1,49 @@
+PLANTGUARD AI — CLASSIFICATION REPORT
+Model: EfficientNetB0 Transfer Learning
+Test Samples: 1124
+Overall Accuracy: 91.37%
+
+                                                    precision    recall  f1-score   support
+
+                                Apple - Apple scab     1.0000    0.9000    0.9474        30
+                                 Apple - Black rot     0.9677    1.0000    0.9836        30
+                          Apple - Cedar apple rust     0.9333    1.0000    0.9655        28
+                                   Apple - healthy     0.9667    0.9667    0.9667        30
+                               Blueberry - healthy     1.0000    1.0000    1.0000        30
+          Cherry (including sour) - Powdery mildew     1.0000    0.9667    0.9831        30
+                 Cherry (including sour) - healthy     1.0000    0.9333    0.9655        30
+Corn (maize) - Cercospora leaf spot Gray leaf spot     0.8235    0.9333    0.8750        30
+                        Corn (maize) - Common rust     1.0000    1.0000    1.0000        30
+               Corn (maize) - Northern Leaf Blight     0.9259    0.8333    0.8772        30
+                            Corn (maize) - healthy     1.0000    1.0000    1.0000        30
+                                 Grape - Black rot     0.9355    0.9667    0.9508        30
+                      Grape - Esca (Black Measles)     0.9655    0.9333    0.9492        30
+        Grape - Leaf blight (Isariopsis Leaf Spot)     0.9667    0.9667    0.9667        30
+                                   Grape - healthy     1.0000    1.0000    1.0000        30
+          Orange - Haunglongbing (Citrus greening)     1.0000    0.9667    0.9831        30
+                            Peach - Bacterial spot     0.9615    0.8333    0.8929        30
+                                   Peach - healthy     0.9091    1.0000    0.9524        30
+                     Pepper, bell - Bacterial spot     0.8485    0.9333    0.8889        30
+                            Pepper, bell - healthy     0.9643    0.9000    0.9310        30
+                             Potato - Early blight     0.9355    0.9667    0.9508        30
+                              Potato - Late blight     0.8929    0.8333    0.8621        30
+                                  Potato - healthy     0.7895    0.9375    0.8571        16
+                               Raspberry - healthy     0.9677    1.0000    0.9836        30
+                                 Soybean - healthy     0.8824    1.0000    0.9375        30
+                           Squash - Powdery mildew     1.0000    1.0000    1.0000        30
+                          Strawberry - Leaf scorch     1.0000    0.9667    0.9831        30
+                              Strawberry - healthy     1.0000    0.9333    0.9655        30
+                           Tomato - Bacterial spot     0.9545    0.7000    0.8077        30
+                             Tomato - Early blight     0.7826    0.6000    0.6792        30
+                              Tomato - Late blight     0.9500    0.6333    0.7600        30
+                                Tomato - Leaf Mold     0.9091    0.6667    0.7692        30
+                       Tomato - Septoria leaf spot     0.7222    0.8667    0.7879        30
+     Tomato - Spider mites Two-spotted spider mite     0.6500    0.8667    0.7429        30
+                              Tomato - Target Spot     0.5745    0.9000    0.7013        30
+            Tomato - Tomato Yellow Leaf Curl Virus     0.9643    0.9000    0.9310        30
+                      Tomato - Tomato mosaic virus     0.9677    1.0000    0.9836        30
+                                  Tomato - healthy     0.9333    0.9333    0.9333        30
+
+                                          accuracy                         0.9137      1124
+                                         macro avg     0.9222    0.9141    0.9135      1124
+                                      weighted avg     0.9239    0.9137    0.9142      1124

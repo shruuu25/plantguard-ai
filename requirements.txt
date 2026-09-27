@@ -1,0 +1,14 @@
+# PlantGuard AI - Production Machine Learning & Backend Dependencies
+tensorflow>=2.15.0
+keras>=3.0.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pillow>=10.2.0
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+httpx>=0.27.0
+pytest>=8.0.0
